@@ -41,7 +41,7 @@ jobs:
           release-as: ${{ env.RELEASE_VERSION }}
           default-branch: ${{ env.BRANCH_NAME }}
           last-release-sha: cbf719c65a1af9650998135c7f9e5a322179394e
-          release-search-depth: 20
+          release-search-depth: 500
           commit-search-depth: 500
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           include-v-in-tag: false
